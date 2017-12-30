@@ -11,7 +11,7 @@ initials = {
         }
 
 cost_matrix = {
- ('planet1', 'planet1'): 1.0,
+ ('planet1', 'planet1'): 0.0,
  ('planet1', 'planet2'): 8.0,
  ('planet1', 'planet3'): 6.0,
  ('planet1', 'planet4'): 3.0,
@@ -19,7 +19,7 @@ cost_matrix = {
  ('planet1', 'planet6'): 2.0,
  ('planet1', 'planet7'): 5.0,
  ('planet2', 'planet1'): 8.0,
- ('planet2', 'planet2'): 1.0,
+ ('planet2', 'planet2'): 0.0,
  ('planet2', 'planet3'): 2.0,
  ('planet2', 'planet4'): 4.0,
  ('planet2', 'planet5'): 6.0,
@@ -27,7 +27,7 @@ cost_matrix = {
  ('planet2', 'planet7'): 3.0,
  ('planet3', 'planet1'): 6.0,
  ('planet3', 'planet2'): 2.0,
- ('planet3', 'planet3'): 1.0,
+ ('planet3', 'planet3'): 0.0,
  ('planet3', 'planet4'): 3.0,
  ('planet3', 'planet5'): 3.0,
  ('planet3', 'planet6'): 5.0,
@@ -35,7 +35,7 @@ cost_matrix = {
  ('planet4', 'planet1'): 3.0,
  ('planet4', 'planet2'): 4.0,
  ('planet4', 'planet3'): 3.0,
- ('planet4', 'planet4'): 1.0,
+ ('planet4', 'planet4'): 0.0,
  ('planet4', 'planet5'): 3.0,
  ('planet4', 'planet6'): 2.0,
  ('planet4', 'planet7'): 2.0,
@@ -43,7 +43,7 @@ cost_matrix = {
  ('planet5', 'planet2'): 6.0,
  ('planet5', 'planet3'): 3.0,
  ('planet5', 'planet4'): 3.0,
- ('planet5', 'planet5'): 1.0,
+ ('planet5', 'planet5'): 0.0,
  ('planet5', 'planet6'): 4.0,
  ('planet5', 'planet7'): 5.0,
  ('planet6', 'planet1'): 2.0,
@@ -51,7 +51,7 @@ cost_matrix = {
  ('planet6', 'planet3'): 5.0,
  ('planet6', 'planet4'): 2.0,
  ('planet6', 'planet5'): 4.0,
- ('planet6', 'planet6'): 1.0,
+ ('planet6', 'planet6'): 0.0,
  ('planet6', 'planet7'): 4.0,
  ('planet7', 'planet1'): 5.0,
  ('planet7', 'planet2'): 3.0,
@@ -59,4 +59,4 @@ cost_matrix = {
  ('planet7', 'planet4'): 2.0,
  ('planet7', 'planet5'): 5.0,
  ('planet7', 'planet6'): 4.0,
- ('planet7', 'planet7'): 1.0}
+ ('planet7', 'planet7'): 0.0}
